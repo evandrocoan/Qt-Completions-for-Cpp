@@ -4,16 +4,27 @@
 
 A Sublime text package that pops up suggestions for common Qt5 classes and components. It's purpose is to make coding easier and faster without the need for memorizing widget names or methods.
 
+
 ## Installation
-> Important: You need to have `Package Control` installed first on your sublime text which can be found at [The Package Contol Website](http://packagecontrol.io)
 
-### Using Package Control's Repository
+### By Package Control
 
-Go to `Preferences` --> `Package Control` --> `Add Repository` --> then type into the textbox `https://github.com/tushortz/`
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `C++ Qt Completions` and press <kbd>Enter</kbd>
 
-After doing this, then go to: `Preferences` --> `Package Control` --> `Install Package` --> then search `Qt Completions for C++` and click it.
-
-The package will be installed and ready for use.
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
 
 ### Download Manually
@@ -40,7 +51,7 @@ On a Python file in sublime text, type your desired component name or method and
 | **Q**Audio         | `#include <QAudio>`      |  Namespaces  |
 | **I-**QLabel       |  `QLabel* labe = new QLabel();` | Instances |
 
-> **Note:** You need to use **upper case** `I-` to get instances completion.  
+> **Note:** You need to use **upper case** `I-` to get instances completion.
 
 > Advice: This completion package is meant for Qt for C++ and not C++. You can disable this package if working on C++ alone.
 
