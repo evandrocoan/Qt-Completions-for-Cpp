@@ -53,6 +53,7 @@ A Sublime text package that pops up suggestions for common Qt5 classes and compo
 search for **`C++ Qt Completions`** and press <kbd>Enter</kbd>
 
 See also:
+
 1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
 1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
